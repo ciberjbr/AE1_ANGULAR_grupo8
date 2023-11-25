@@ -1,2 +1,2 @@
 1- Para que funcionen las aplicaciones Angular, cuando os bajéis el repositorio hay que ejecutar en el cmd el comando "npm install" 
-dentro de cualquier Angular para instalar la carpeta node_modules, ya que no se sube a github porque ocupa 300MB
+dentro de cualquier Angular para instalar la carpeta node_modules, yano se subea github porque ocupa 300MB
