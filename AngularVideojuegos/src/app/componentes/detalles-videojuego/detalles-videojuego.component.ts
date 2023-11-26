@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Videojuego } from '../entidades/videojuego';
+import { Videojuego } from '../../entidades/videojuego';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Usuario } from '../entidades/usuario';
+import { Usuario } from '../../entidades/usuario';
 import { Router } from '@angular/router';
 
 @Component({

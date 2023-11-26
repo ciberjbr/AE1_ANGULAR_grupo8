@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './login/login.component';
-import  { ListaVideojuegosComponent }  from './lista-videojuegos/lista-videojuegos.component';
-import { DetallesVideojuegoComponent } from './detalles-videojuego/detalles-videojuego.component';
-import { ContactoComponent } from './contacto/contacto.component';
-import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
+import { LoginComponent } from './componentes/login/login.component';
+import  { ListaVideojuegosComponent }  from './componentes/lista-videojuegos/lista-videojuegos.component';
+import { DetallesVideojuegoComponent } from './componentes/detalles-videojuego/detalles-videojuego.component';
+import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { SobreNosotrosComponent } from './componentes/sobre-nosotros/sobre-nosotros.component';
 const routes: Routes = [
 
   {

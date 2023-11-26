@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { /*ActivatedRoute,*/ Router } from '@angular/router';
-import { Videojuego } from '../entidades/videojuego';
+import { Videojuego } from '../../entidades/videojuego';
 
 @Component({
   selector: 'app-lista-videojuegos',
