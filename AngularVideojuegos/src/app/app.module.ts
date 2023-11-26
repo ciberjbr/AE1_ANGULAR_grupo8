@@ -10,6 +10,7 @@ import { ListaVideojuegosComponent } from './lista-videojuegos/lista-videojuegos
 import { DetallesVideojuegoComponent } from './detalles-videojuego/detalles-videojuego.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
+import { NombreUsuarioComponent } from './nombre-usuario/nombre-usuario.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.componen
     ListaVideojuegosComponent,
     DetallesVideojuegoComponent,
     ContactoComponent,
-    SobreNosotrosComponent
+    SobreNosotrosComponent,
+    NombreUsuarioComponent
   ],
   imports: [
     BrowserModule,

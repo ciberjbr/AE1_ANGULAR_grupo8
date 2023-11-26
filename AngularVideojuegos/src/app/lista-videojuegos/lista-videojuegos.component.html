@@ -1,10 +1,12 @@
 <app-menu></app-menu>
 
 
-<div>
-    <h2>Usuario:</h2>
-    <p>{{nombre}}</p>
-</div>
+
+
+<app-nombre-usuario [nombre]="nombre"></app-nombre-usuario> 
+   
+
+
 
 <h1>LISTA DE VIDEOJUEGOS</h1>
 
@@ -13,7 +15,7 @@
         <tr>
             <th>ID</th>
             <th>Nombre</th>
-            <th>Universo</th>
+            <th>Valoracion media:</th>
             
         </tr>
     </thead>
