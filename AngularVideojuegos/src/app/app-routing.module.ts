@@ -19,6 +19,9 @@ const routes: Routes = [
     path : 'detallesVideojuego', //cuando definimos el 'path' no puede empezar por '/'
     component : DetallesVideojuegoComponent
   },
+
+  {path : 'detallesVideojuego/:idVideojuego', 
+  component : DetallesVideojuegoComponent},
   {
     path : 'contacto', //cuando definimos el 'path' no puede empezar por '/'
     component : ContactoComponent
@@ -27,6 +30,9 @@ const routes: Routes = [
     path : 'sobreNosotros', //cuando definimos el 'path' no puede empezar por '/'
     component : SobreNosotrosComponent
   },
+  {path : 'listaVideojuegos/:nombre', 
+  component : ListaVideojuegosComponent},
+  
 
 ];
 

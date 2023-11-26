@@ -10,11 +10,16 @@ export class Videojuego{
     * 
     * 
     */
-    private _id : number = 0;
-    public titulo : string;
-    public compañia : string;
-    public imagen : string
-    public valoracionMedia : string
+    private _id: number = 0;
+    
+    private _titulo: string;
+   
+    private _compañia: string;
+    
+    private _imagen: string;
+    
+    private _valoracionMedia: string;
+    
 
 
     /*
@@ -29,18 +34,44 @@ export class Videojuego{
     //OJO! Al poner en el constructor los parametros de entrada, se crean automáticamente 
     //los atributos titulo y universo en la clase. Es decir, esta clase tendrá 3 atributos
     //dinamicos y 1 estatico en total.
-    constructor(titulo : string, compañia : string, imagen :string, valoracionMedia : string){
-        this._id = Videojuego.contadorId++;
-        this.titulo = titulo
-        this.compañia = compañia
-        this.imagen = imagen
-        this.valoracionMedia = valoracionMedia
+    constructor(id : number , titulo : string, compañia : string, imagen :string, valoracionMedia : string){
+        this._id = id
+        this._titulo = titulo
+        this._compañia = compañia
+        this._imagen = imagen
+        this._valoracionMedia = valoracionMedia
     }
 
-    public get id() : number{
+    public get id(): number {
         return this._id;
     }
-
+    public set id(value: number) {
+        this._id = value;
+    }
+    public get titulo(): string {
+        return this._titulo;
+    }
+    public set titulo(value: string) {
+        this._titulo = value;
+    }
+    public get compañia(): string {
+        return this._compañia;
+    }
+    public set compañia(value: string) {
+        this._compañia = value;
+    }
+    public get imagen(): string {
+        return this._imagen;
+    }
+    public set imagen(value: string) {
+        this._imagen = value;
+    }
+    public get valoracionMedia(): string {
+        return this._valoracionMedia;
+    }
+    public set valoracionMedia(value: string) {
+        this._valoracionMedia = value;
+    }
     public toString() : string {
         return `ID: ${this._id}, titulo: ${this.titulo}, compañia: ${this.compañia}, imagen: ${this.imagen}, valoracionMedia: ${this.valoracionMedia},`
     }

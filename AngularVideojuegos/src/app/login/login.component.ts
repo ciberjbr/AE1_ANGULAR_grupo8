@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
   
   
   
-  constructor(private router:Router) {
+  constructor(private router:Router,) {
 
 
     let usuario1 : Usuario = new Usuario("juan", "juan")
@@ -43,7 +43,8 @@ export class LoginComponent implements OnInit {
         let usuarioAux : Usuario = this.listaUsuarios[a]
         if(usuarioAux.nombre == this.nombre && usuarioAux.nombre == this.contrasena ){
           this.mensajeInicioSesionOculto = true
-          this.router.navigate([ '/listaVideojuegos'])
+          localStorage.setItem('nombreUsuario', this.nombre);
+          this.router.navigate([ '/listaVideojuegos']) // , this.nombre
           
           break
           }
