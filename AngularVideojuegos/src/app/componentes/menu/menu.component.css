@@ -6,7 +6,7 @@ nav a{
     
 nav li{
     display:inline-block;
-    width:10%;
+    width:20%;
     padding:5px 10px;
     background-color:rgb(182, 219, 233);
     border:1px solid #000;
@@ -15,6 +15,6 @@ nav li{
 }
     
 nav li:hover{
-    background-color:rgb(142, 255, 198);
+    background-color:rgb(255, 159, 142);
     color:#000;
 }
