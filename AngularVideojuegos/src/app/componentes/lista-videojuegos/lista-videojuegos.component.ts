@@ -27,14 +27,14 @@ export class ListaVideojuegosComponent implements OnInit {
   
   
   
-  //route:ActivatedRoute,
+  //route:ActivatedRoute, por si acaso
   constructor(private router:Router) {
 
 
-    
+    //recogemos 
 
     this.nombre = localStorage.getItem('nombreUsuario') || "";
-    //this.nombre = route.snapshot.params["nombre"]
+    //this.nombre = route.snapshot.params["nombre"], por si acaso
 
     
     
@@ -52,6 +52,8 @@ export class ListaVideojuegosComponent implements OnInit {
 
   } 
 
+  /* Este método recibe el objeto videojuego que se muestra en esa fila y ejecuta la ruta que nos lleva al componente detalles-videojuego, y le pasa
+  por parámetros de ruta el id del videojuego */
 
   public verDetalle(videojuego : Videojuego) : void{
 

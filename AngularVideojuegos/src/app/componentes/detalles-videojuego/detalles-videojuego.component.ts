@@ -43,8 +43,7 @@ export class DetallesVideojuegoComponent implements OnInit {
     for(let a=0; a<this.listaVideojuegos2.length; a++){
       let videojuegoAux : Videojuego = this.listaVideojuegos2[a]
       if(videojuegoAux.id == this.id){
-          this.id = this.listaVideojuegos2[a].id
-         this.titulo = this.listaVideojuegos2[a].titulo
+          this.titulo = this.listaVideojuegos2[a].titulo
           this.compania = this.listaVideojuegos2[a].compañia
           this.imagen = this.listaVideojuegos2[a].imagen
           this.valoracionMedia = this.listaVideojuegos2[a].valoracionMedia

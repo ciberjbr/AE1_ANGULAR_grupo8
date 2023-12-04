@@ -1,12 +1,6 @@
 <app-menu></app-menu>
 
-
-
-
 <app-nombre-usuario [nombre]="nombre"></app-nombre-usuario> 
-   
-
-
 
 <h1>LISTA DE VIDEOJUEGOS</h1>
 
@@ -21,8 +15,9 @@
     </thead>
     <tbody>
         <!-- 
-            Recorremos la lista, y si pulsamos en alguna fila, ejecutaremos el metodo
-            "seleccionar", pasandole el heroe seleccionado
+            Recorremos la lista y vamos introduciendo en la tabla en etiquetas <tr> los diferente videojuegos de la lista
+            de objetos Videojuego creada en el .ts . Además si pulsamos en alguna fila, ejecutaremos el metodo
+            "verDetalle", pasandole el videojuego seleccionado
         -->
         <tr class="juego" *ngFor="let v of listaVideojuegos" (click)="verDetalle(v)" >
             <td>{{ v.id }}</td>
@@ -32,3 +27,8 @@
        
     </tbody>
 </table> 
+
+
+
+
+
