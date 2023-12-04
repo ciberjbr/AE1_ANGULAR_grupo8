@@ -1,0 +1,22 @@
+#main {
+
+    background-color: bisque;
+}
+
+h1{
+    color:purple
+
+}
+
+button:hover {
+
+    background-color: chartreuse;
+}
+
+#error {
+    margin-top: 1rem;
+    color: red;
+    text-decoration:overline
+}
+
+
